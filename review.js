@@ -4,7 +4,7 @@ const img = document.querySelector('.image');
 const Naam = document.querySelector('.Naam');
 const discription = document.querySelector('.discription');
 
-const imgArr = ['finalSrijan.png', 'anupamcut.png', 'ganeshfinal.png', 'HemantFinal.png', 'MandaiFinal.png'];
+const imgArr = ['./finalSrijan.png', './anupamcut.png', './ganeshfinal.png', './HemantFinal.png', './MandaiFinal.png'];
 const disArr = ['I m Srijan', 'I m Anupam', 'I m Ganesh', 'I m Hemant', 'I m Maan Bahadur'];
 const nameArr = ['Srijan Sigdel', 'Anupam Poudel', 'Ganesh Kunwar', 'Hemant Rajbansi', 'Maan Bahadur Tamang'];
 
