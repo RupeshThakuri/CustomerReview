@@ -20,7 +20,7 @@ leftBtn.addEventListener('click', () => {
 rightBtn.addEventListener('click', () => {
     num++;
     if (num > 4) {
-        num = num % 4;
+        num = 0;
     }
     console.log(num);
     change();
