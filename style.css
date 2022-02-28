@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+body {
+    background-color: rgb(16, 27, 65);
+}
+
+img {
+    width: 23em;
+    height: 12em;
+}
+
+.title {
+    color: white;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1 {
+    border-bottom: 2px solid rgb(39, 169, 192);
+    width: fit-content;
+}
+
+.customer-review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.customer-review--elements {
+    text-align: center;
+    line-height: 25px;
+}
+
+.container {
+    width: 25em;
+    padding: 0em 2em 2em 2em;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.slides-buttons {
+    margin: 20px 10px 10px 10px;
+}
+
+.slides-buttons a {
+    font-size: 20px;
+    padding: 4px;
+    color: rgb(80, 124, 247);
+    cursor: pointer;
+}
+
+.suprise-me {
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(80, 124, 247);
+    font-size: 20px;
+}
+
+.container p {
+    font-size: 20px;
+}
